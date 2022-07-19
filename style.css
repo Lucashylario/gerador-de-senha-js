@@ -1,6 +1,8 @@
 * {
     font-family: 'Poppins', sans-serif;
     font-size: x-large;
+    background-color: #141414;
+    color: #fff;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -9,11 +11,19 @@
 body {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
 main {
+    background-color: #303030;
     padding: 20px;
     box-shadow: 0 1px 10px #ccc;
     display: flex;
@@ -22,6 +32,7 @@ main {
 }
 
 main > div {
+    background-color: #303030;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -30,8 +41,12 @@ main > div {
 input {
     padding: 5px;
     outline: none;
-    accent-color: blueviolet;
-    border-color: blueviolet;
+    accent-color: #8a2be2;
+    border-color: #8a2be2;
+}
+
+label {
+    background-color: #303030;
 }
 
 input[type=checkbox] {
@@ -44,9 +59,9 @@ input[type=range] {
 }
 
 button {
-    background-color: blueviolet;
+    background-color: #8a2be2;
     cursor: pointer;
-    color: white;
+    color: #ffffff;
     border: none;
     padding: 5px;
 }
